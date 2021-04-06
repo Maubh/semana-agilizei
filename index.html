@@ -279,8 +279,8 @@ pre {
           <a class="navbar-brand">Cucumberjs Report</a>
           <div class="project-name visible-md visible-lg">semana-agilizei</div>
           <div class="label-container">
-            <span class="label label-success" onclick="toggle('.feature-passed')" title=scenarios>Passed: 3</span>
-            <span class="label label-danger" onclick="toggle('.feature-failed')" title=scenarios>Failed: 0</span>
+            <span class="label label-success" onclick="toggle('.feature-passed')" title=scenarios>Passed: 2</span>
+            <span class="label label-danger" onclick="toggle('.feature-failed')" title=scenarios>Failed: 1</span>
           </div>
         </div>
       </div>
@@ -288,7 +288,7 @@ pre {
 
     <div class="container">
 
-      <div class="generated-on">Tue Apr 06 2021 04:19:22 GMT+0000 (Coordinated Universal Time)</div>
+      <div class="generated-on">Tue Apr 06 2021 04:19:26 GMT+0000 (Coordinated Universal Time)</div>
 
       <div class="row">
         <div class="chart col-lg-6 col-md-6" id="piechart_features"></div>
@@ -363,7 +363,7 @@ pre {
 <div class="row" xmlns="http://www.w3.org/1999/html">
 
 
-<div class="feature-passed">
+<div class="feature-failed">
 
     <div class="col-lg-6 col-md-6">
         <div class="panel panel-default">
@@ -373,14 +373,14 @@ pre {
                     <div class="tags">
                     </div>
                     
-                    <a data-toggle="collapse" href="#collapseFeaturesemana_agilizeice915198-c4da-4ae8-af27-63f273b230f1">
+                    <a data-toggle="collapse" href="#collapseFeaturesemana_agilizeic42d2f0b-79e6-454b-bfc4-3028d590c82c">
                         <i class="glyphicon glyphicon-chevron-right"></i>
                         <i class="glyphicon glyphicon-chevron-down"></i>
                         <b>Funcionalidade:</b>Cadastro
                         <span class="label-container">
-              <span class="label label-success"
-                                                         title="1 Scenarios Passed">1</span>
               
+              <span class="label label-danger"
+                                                         title="1 Scenarios Failed">1</span>
               
               
               
@@ -389,7 +389,7 @@ pre {
                     </a>
                 </h4>
             </div>
-            <div id="collapseFeaturesemana_agilizeice915198-c4da-4ae8-af27-63f273b230f1" class="panel-collapse collapse">
+            <div id="collapseFeaturesemana_agilizeic42d2f0b-79e6-454b-bfc4-3028d590c82c" class="panel-collapse collapse">
                 <div class="panel-body">
                     
                     <div class="description">    Como usuário, desejo realizar um Cadastro<br/>    Para que possa acessar o sistema</div>
@@ -404,22 +404,23 @@ pre {
                                 <div class="tags">
                                 </div>
                                 
-                                <a data-toggle="collapse" href="#collapseScenariosemana_agilizeife12df16-5a67-44fa-baac-4e0aa7342e62">
+                                <a data-toggle="collapse" href="#collapseScenariosemana_agilizeic005531b-916b-4a61-b305-d5bd9a107776">
                                     <div>
 
-                                        <div style="padding-right: 30px">
+                                        <div style="padding-right: 50px">
                                             <i class="glyphicon glyphicon-chevron-right"></i>
                                             <i class="glyphicon glyphicon-chevron-down"></i>
                                             <b>Scenario:</b>Cadastro de novo usuário
                                         </div>
                                         <div>
                             <span class="label-container">
-                              <span class="label label-success"
-                                                               title="4 Steps Passed">4</span>
                               
                               
                               
-                              
+                              <span class="label label-warning"
+                                                                title="3 Steps Skipped">3</span>
+                              <span class="label label-danger"
+                                                               title="1 Steps Failed">1</span>
                               
                             </span>
                                         </div>
@@ -428,7 +429,7 @@ pre {
                                 </a>
                             </h4>
                         </div>
-                        <div id="collapseScenariosemana_agilizeife12df16-5a67-44fa-baac-4e0aa7342e62"
+                        <div id="collapseScenariosemana_agilizeic005531b-916b-4a61-b305-d5bd9a107776"
                              class="panel-collapse collapse">
                             <div class="panel-body">
                                 <div></div>
@@ -439,8 +440,8 @@ pre {
                                 <div class="row steps">
                                     
                                     
-                                    <span class="label label-success" title="Success"><i
-                                            class="glyphicon glyphicon-ok"></i></span>
+                                    <span class="label label-danger" title="Failed"><i
+                                            class="glyphicon glyphicon-remove"></i></span>
                                     
                                     
                                     <span class="text">
@@ -449,7 +450,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               3s 26ms
+                               2s 548ms
                               </span>
                             
                          
@@ -460,6 +461,64 @@ pre {
                       </span>
                                 
                                 
+
+                                    
+                                    <a href="#error0_00"
+                                       data-toggle="collapse" class="toggle">Show Error +</a>
+                                    <div id="error0_00"
+                                         class="collapse">
+                                        <pre class="info show-modal"
+                                             data-toggle="modal"
+                                             style="cursor: pointer"
+                                             data-target="#error-modal-0_00">
+                                            <br> TypeError: The following error originated from your application code, not from Cypress.
+
+  ) Cannot read property '0' of undefined
+
+When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+
+This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+
+https://on.cypress.io/uncaught-exception-from-application
+    at http://demo.automationtesting.in/angcontroller.js:856:50</pre>
+                                    </div>
+
+                                <div class="modal fade" id="error-modal-0_00" tabindex="-1" role="dialog"
+                                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                                </button>
+                                                <h4 class="modal-title" id="error-modal-title">
+                                                    Error
+                                                </h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                <h5>
+                                                    <pre><br>TypeError: The following error originated from your application code, not from Cypress.
+
+  ) Cannot read property '0' of undefined
+
+When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+
+This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+
+https://on.cypress.io/uncaught-exception-from-application
+    at http://demo.automationtesting.in/angcontroller.js:856:50</pre>
+                                                </h5>
+                                            </div>
+
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                                    Close
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
 
                                     
 
@@ -477,8 +536,8 @@ pre {
                                 <div class="row steps">
                                     
                                     
-                                    <span class="label label-success" title="Success"><i
-                                            class="glyphicon glyphicon-ok"></i></span>
+                                    <span class="label label-warning" title="Skipped"><i
+                                            class="glyphicon glyphicon-minus"></i></span>
                                     
                                     
                                     <span class="text">
@@ -487,7 +546,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               3s 854ms
+                               0s
                               </span>
                             
                          
@@ -515,8 +574,8 @@ pre {
                                 <div class="row steps">
                                     
                                     
-                                    <span class="label label-success" title="Success"><i
-                                            class="glyphicon glyphicon-ok"></i></span>
+                                    <span class="label label-warning" title="Skipped"><i
+                                            class="glyphicon glyphicon-minus"></i></span>
                                     
                                     
                                     <span class="text">
@@ -525,7 +584,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               349ms
+                               0s
                               </span>
                             
                          
@@ -553,8 +612,8 @@ pre {
                                 <div class="row steps">
                                     
                                     
-                                    <span class="label label-success" title="Success"><i
-                                            class="glyphicon glyphicon-ok"></i></span>
+                                    <span class="label label-warning" title="Skipped"><i
+                                            class="glyphicon glyphicon-minus"></i></span>
                                     
                                     
                                     <span class="text">
@@ -563,7 +622,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               48ms
+                               0s
                               </span>
                             
                          
@@ -610,7 +669,7 @@ pre {
                     <div class="tags">
                     </div>
                     
-                    <a data-toggle="collapse" href="#collapseFeaturesemana_agilizeic00b3229-97a4-4fda-86b8-d0d4db8808a6">
+                    <a data-toggle="collapse" href="#collapseFeaturesemana_agilizeid57f7136-31ac-426a-a69b-de31857f3021">
                         <i class="glyphicon glyphicon-chevron-right"></i>
                         <i class="glyphicon glyphicon-chevron-down"></i>
                         <b>Funcionalidade:</b>Listagem
@@ -626,7 +685,7 @@ pre {
                     </a>
                 </h4>
             </div>
-            <div id="collapseFeaturesemana_agilizeic00b3229-97a4-4fda-86b8-d0d4db8808a6" class="panel-collapse collapse">
+            <div id="collapseFeaturesemana_agilizeid57f7136-31ac-426a-a69b-de31857f3021" class="panel-collapse collapse">
                 <div class="panel-body">
                     
                     <div class="description">   Como usuário, desejo acessar a Listagem<br/>   Para que possa visualizar meus dados de cadastro</div>
@@ -641,7 +700,7 @@ pre {
                                 <div class="tags">
                                 </div>
                                 
-                                <a data-toggle="collapse" href="#collapseScenariosemana_agilizei20bae5f2-249a-45fa-80ab-1f25d58a65be">
+                                <a data-toggle="collapse" href="#collapseScenariosemana_agilizeicb5a8557-9750-41f3-85b8-9d43a73297e5">
                                     <div>
 
                                         <div style="padding-right: 30px">
@@ -665,7 +724,7 @@ pre {
                                 </a>
                             </h4>
                         </div>
-                        <div id="collapseScenariosemana_agilizei20bae5f2-249a-45fa-80ab-1f25d58a65be"
+                        <div id="collapseScenariosemana_agilizeicb5a8557-9750-41f3-85b8-9d43a73297e5"
                              class="panel-collapse collapse">
                             <div class="panel-body">
                                 <div></div>
@@ -686,7 +745,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               7s 421ms
+                               3s 554ms
                               </span>
                             
                          
@@ -724,7 +783,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               5s 963ms
+                               7s 534ms
                               </span>
                             
                          
@@ -762,7 +821,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               22ms
+                               47ms
                               </span>
                             
                          
@@ -798,7 +857,7 @@ pre {
                                 <div class="tags">
                                 </div>
                                 
-                                <a data-toggle="collapse" href="#collapseScenariosemana_agilizeicc5a5c01-084d-445b-8cc4-7164145463e9">
+                                <a data-toggle="collapse" href="#collapseScenariosemana_agilizei8ce72687-71a9-47fa-89a1-85e048f31238">
                                     <div>
 
                                         <div style="padding-right: 30px">
@@ -822,7 +881,7 @@ pre {
                                 </a>
                             </h4>
                         </div>
-                        <div id="collapseScenariosemana_agilizeicc5a5c01-084d-445b-8cc4-7164145463e9"
+                        <div id="collapseScenariosemana_agilizei8ce72687-71a9-47fa-89a1-85e048f31238"
                              class="panel-collapse collapse">
                             <div class="panel-body">
                                 <div></div>
@@ -843,7 +902,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               265ms
+                               459ms
                               </span>
                             
                          
@@ -881,7 +940,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               3s 88ms
+                               4s 285ms
                               </span>
                             
                          
@@ -919,7 +978,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               79ms
+                               97ms
                               </span>
                             
                          
@@ -979,8 +1038,8 @@ pre {
         google.load("visualization", "1", {packages: ["corechart"]});
         google.setOnLoadCallback(function() {drawChart({
                                                             "title" : "Features",
-                                                            "failed" : 0,
-                                                            "passed" : 2,
+                                                            "failed" : 1,
+                                                            "passed" : 1,
                                                             "notdefined" : 0,
                                                             "pending" : 0,
                                                             "skipped" : 0,
@@ -989,8 +1048,8 @@ pre {
                                             });
         google.setOnLoadCallback(function() {drawChart({
                                                             "title" : "Scenarios",
-                                                            "failed" : 0,
-                                                            "passed" : 3,
+                                                            "failed" : 1,
+                                                            "passed" : 2,
                                                             "notdefined" : 0,
                                                             "pending" : 0,
                                                             "skipped" : 0,
