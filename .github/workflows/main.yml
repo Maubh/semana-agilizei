@@ -38,6 +38,7 @@ jobs:
     
     # Executar os testes usando o cucumber
       - run: npm run cy:run:cucumber
+      - continue-on-error: true
       
     # Gerar o relatório em HTML
       - run: npm run report:cucumber
@@ -49,3 +50,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN}}
           BRANCH: gh-pages
           FOLDER: cypress/reports
+
+    continue-on-error: true
